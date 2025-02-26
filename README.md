@@ -1,3 +1,7 @@
+## Backend Github Link: https://github.com/srinivas9548/Baby-steps-backend-assignment
+### Frontend Published Link: https://baby-steps-frontend-assignment.vercel.app/
+### Backend Published Link: https://srinivas-baby-steps-backend-assignment.vercel.app/
+
 # Doctor Appointment Booking System
 
 This is a simple Doctor Appointment Booking application built with React. It allows users to select a doctor, choose an available date, pick a time slot, and book an appointment. Users can also view and manage their upcoming appointments.
