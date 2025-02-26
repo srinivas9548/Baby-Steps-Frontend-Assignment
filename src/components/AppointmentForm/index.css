@@ -1,0 +1,46 @@
+.appointment-form {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    width: 300px;
+    text-align: center;
+}
+
+.appointment-form input,
+.appointment-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+
+.appointment-form button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    background: #ff6b6b;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.appointment-form button:hover {
+    background: #ff4757;
+}
+
+.cancel-btn {
+    background: gray;
+    margin-left: 10px;
+}
+
+.cancel-btn:hover {
+    background: darkgray;
+}

@@ -1,0 +1,41 @@
+.appointment-list {
+    max-width: 600px;
+    border-radius: 8px;
+    margin-top: 20px;
+    background: #ffffff33;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.appointment-list h3 {
+    text-align: center;
+}
+
+.appointment-list ul {
+    list-style: none;
+    padding: 0;
+}
+
+.appointment-list li {
+    display: flex;
+    justify-content: space-between;
+    background: #f1f1f1;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+}
+
+.appointment-list button {
+    background: #f44336;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.appointment-list button:hover {
+    background: #d32f2f;
+}

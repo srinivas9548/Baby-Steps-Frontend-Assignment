@@ -1,0 +1,27 @@
+.doctor-selection {
+    padding: 20px;
+    text-align: center;
+}
+
+.doctor-selection h2 {
+    color: #333;
+}
+
+.doctor-selection ul {
+    list-style: none;
+    padding: 0;
+}
+
+.doctor-selection li {
+    padding: 10px;
+    margin: 5px;
+    background: #f0f0f0;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.doctor-selection li:hover {
+    background: #4caf50;
+    color: white;
+}

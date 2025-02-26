@@ -1,0 +1,30 @@
+.available-slots {
+    text-align: center;
+    padding: 20px;
+}
+
+.slot-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+.slot {
+    padding: 10px 15px;
+    border-radius: 5px;
+    background: white;
+    color: #333;
+    font-size: 16px;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    transition: 0.3s;
+}
+
+.slot:hover {
+    background: #ddd;
+}
+
+.error {
+    color: red;
+}
